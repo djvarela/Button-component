@@ -14,7 +14,6 @@ For the icon part, use the one proposed by devChallenges, which is provided by G
 
 Component:
 
-
 `<Button 
     icon={}  
     type={}
