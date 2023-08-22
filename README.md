@@ -1,39 +1,36 @@
 # Button component
 
-[DEMO]
-https://djvarela.github.io/button-component/
+The UI of this challenger is approached using the *React* library.
 
-La UI de este challenger es abordado mediante la libreria de  *React*.
+Taking the concept of a Component, which receives two Props.
 
-Tomando el concepto de Componente, el cual recibe dos Props.
-Para la parte de iconos use el propuesto por devChallenges, que es el provisto por goole:
+For the icon part, use the one proposed by devChallenges, which is provided by Google:
 
-https://fonts.google.com/icons?hl=es-419
+[Google Icons](https://fonts.google.com/icons?hl=en)
 
--icon
+- `icon`
 
--type
+- `type`
 
-Componente:
-`<Button 
+Component:
+
+```jsx
+<Button 
     icon={}  
     type={}
-    />`
-
+/>
 
 ## Icons
+The icons are taken from fonts.google, and in order to use them, it's necessary to have a <span> where the icon is intended to be rendered with the className='material-symbols-rounded', and its children are the icon to be rendered.
+
+The component has a ternary operator, which if it doesn't receive the icon reference, the <span> isn't rendered, otherwise, it is.
+
+Type
+For cases like measurements, shadows, borders, sizes, etc., the CSS classes are used that are sent as props.
+
+For example:
+
+```jsx <Button icon="shopping_cart" type="startIcon" />
 
 
-Los iconos son tomando desde el fonts.google, y para poder hacer uso es necesario contar con un `<span>` donde se quiere renderizar el icono en cuestion con el `className='material-symbols-rounded'` y su `chilldren` el icono que se busca renderizar.
-
-El componente tie un operador ternario, que en caso de no recibir la referencia del icono el `<span>` no se renderiza, caso contrario sí.
-
-## Type
-
-Para el caso de las medidas, sombras, borders y tamaños etc. Se utiliza las clases de `CSS` que envian como `props`
-
-Por ejemplo: 
-
-`<Button icon="shopping_cart" type="startIcon" />`
-
-Tiene la clase `startIcon` posiciona el icon al principio y el texto luego
+It has the startIcon class which positions the icon at the beginning and the text afterward. In the icon part, it takes the typical shopping cart icon in this case.
