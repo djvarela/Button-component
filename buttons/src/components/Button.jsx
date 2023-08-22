@@ -1,6 +1,6 @@
 
 
-export const Button = ({type = 'default', icon = null}) => {
+export const Button = ({type = 'default', icon = null, text = 'Button'}) => {
 
   return (
     <>
@@ -10,7 +10,7 @@ export const Button = ({type = 'default', icon = null}) => {
     <button className={type}>
     {icon == null ? '' : <span className="material-symbols-rounded">{icon}</span> }
     
-    Button
+    {text}
     </button>
     </span>
     </>
