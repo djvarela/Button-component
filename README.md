@@ -18,7 +18,7 @@ Component:
 <Button 
     icon={}  
     type={}
-/> jsx```
+/> jsx`
 
 
 ## Icons
