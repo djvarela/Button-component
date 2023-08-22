@@ -14,12 +14,12 @@ For the icon part, use the one proposed by devChallenges, which is provided by G
 
 Component:
 
-\```jsx
+```jsx
 <Button 
     icon={}  
     type={}
 />
-\```
+
 
 ## Icons
 
