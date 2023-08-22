@@ -18,7 +18,7 @@ Component:
 <Button 
     icon={}  
     type={}
-/>`
+/>```
 
 ## Icons
 The icons are taken from fonts.google, and in order to use them, it's necessary to have a <span> where the icon is intended to be rendered with the className='material-symbols-rounded', and its children are the icon to be rendered.
@@ -30,7 +30,7 @@ For cases like measurements, shadows, borders, sizes, etc., the CSS classes are 
 
 For example:
 
-```jsx <Button icon="shopping_cart" type="startIcon" />
+```jsx <Button icon="shopping_cart" type="startIcon" />```
 
 
 It has the startIcon class which positions the icon at the beginning and the text afterward. In the icon part, it takes the typical shopping cart icon in this case.
