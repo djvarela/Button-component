@@ -18,7 +18,7 @@ Component:
 <Button 
     icon={}  
     type={}
-/>```
+/>
 
 ## Icons
 The icons are taken from fonts.google, and in order to use them, it's necessary to have a <span> where the icon is intended to be rendered with the className='material-symbols-rounded', and its children are the icon to be rendered.
