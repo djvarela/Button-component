@@ -14,7 +14,7 @@ For the icon part, use the one proposed by devChallenges, which is provided by G
 
 Component:
 
-```jsx
+
 <Button 
     icon={}  
     type={}
@@ -33,8 +33,8 @@ For cases like measurements, shadows, borders, sizes, etc., the `CSS` classes ar
 
 For example:
 
-\```jsx
+```jsx
 <Button icon="shopping_cart" type="startIcon" />
-\```
+```
 
 It has the `startIcon` class which positions the icon at the beginning and the text afterward. In the `icon` part, it takes the typical shopping cart icon in this case.
